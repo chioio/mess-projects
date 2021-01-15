@@ -1,0 +1,159 @@
+
+.main {
+  display: flex;
+}
+
+/*
+ * =======
+ *  侧边栏 
+ * =======
+ */
+ .sidebar {
+  position: relative;
+  top: 0;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  min-width: 250px;
+  height: 95vh;
+  margin: auto 0;
+  padding: 20px 0;
+  border-radius: 10px;
+  background-color: #303030;
+  overflow: hidden;
+}
+
+/* 用户信息 */
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+/* 头像 */
+.avatar {
+  width: 100px;
+  height: 100px;
+  background-image: url('../img/avatar.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: pink;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* 用户名 */
+.nickname {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight: 600;
+}
+
+/* 侧边栏选项列表 */
+.nav-list {
+  /* height: 100%; */
+  flex: 6;
+  background-color: #fff;
+}
+
+/* 侧边栏选项 */
+.nav-list .list-group .nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* 侧边栏选项 hover */
+.nav-list .list-group .nav-item:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* 侧边栏选项 激活状态 */
+.list-group-item.active {
+}
+
+/* 侧边栏选项 图标 */
+.nav-list .list-group .nav-item i {
+  margin: 0 8px;
+}
+
+/* 侧边栏选项 */
+.list-group-item {
+  border-color: #30303015;
+}
+
+/* 退出 */
+.exit {
+  flex: 1;
+  text-align: center;
+  background-color: #fff;
+}
+
+.exit button {
+  height: 40px;
+  width: 80%;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: #505050;
+  background-color: #efefef;
+}
+.exit button:hover {
+  background-color: #303030;
+  color: #fff;
+}
+
+.exit button:active {
+  background-color: #202020;
+}
+
+
+/* 版权信息 */
+.copyright {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 15px 0;
+  color: #cfcfcf;
+  font-size: 0.6rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+/*
+ * =========
+ *  内容部分
+ * =========
+ */
+.content {
+  width: 100%;
+  height: 100vh;
+  margin-left: 15px;
+  background-color: #FFF;
+  padding: 20px 15px;
+}
+
+.content h1 {
+  font-family: "PingFang SC", sans-serif;
+  font-weight: 800;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+}
+
+
+/*
+ * =========
+ *  视频缩略
+ * =========
+ */

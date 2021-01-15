@@ -1,0 +1,12 @@
+# Module Dependency
+node_modules
+
+# Log
+*.log
+
+# OSX
+.DS_Store
+
+# Editor
+.vscode
+.idea

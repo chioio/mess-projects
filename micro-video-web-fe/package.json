@@ -1,0 +1,12 @@
+{
+  "name": "micro-video-web-fe",
+  "version": "1.0.0",
+  "author": "Tenn Chio",
+  "license": "MIT",
+  "scripts": {
+    "dev": "browser-sync public --index login.html --watch --no-notify"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  }
+}
